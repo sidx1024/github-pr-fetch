@@ -1,0 +1,16 @@
+{
+  "name": "github-pr-fetch",
+  "version": "1.0.0",
+  "description": "Fetch GitHub PRs by author",
+  "main": "index.js",
+  "bin": {
+    "github-pr-fetch": "./index.js"
+  },
+  "author": "sidx1024",
+  "license": "ISC",
+  "devDependencies": {
+    "commander": "^10.0.1",
+    "date-fns": "^2.30.0",
+    "node-fetch": "^2.6.11"
+  }
+}
