@@ -31,7 +31,7 @@ npx github-pr-fetch \
 Here is what each argument means:
 
 - `--author`: GitHub username of the author whose contributions you want to fetch.
-- `--token`: Your GitHub personal access token.
+- `--token`: Your GitHub personal access token. Read the steps [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic) to obtain it.
 - `--repo`: The GitHub repository from which to fetch contributions, in the format "owner/repo".
 - `--start`: The start date for fetching contributions. This is optional. If not provided, contributions will be fetched from the beginning of GitHub's time (i.e., since 1970).
 - `--end`: The end date for fetching contributions. This is optional. If not provided, contributions will be fetched up to the current date.
